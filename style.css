@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aquamarine;
+  
+}
+/*Navbar Style starts*/
+nav{
+   display: flex;
+   align-items: justify;
+   background-color: black;
+   opacity: 0.9;
+   height: 80px;
+   width: 100%;
+}
+.container{
+    padding: 25px;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+}
+#navbar-ul li{
+    box-sizing: border-box;
+    display: inline;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 600;
+}
+#navbar-ul li a{
+    color: white;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#navbar-ul li a:hover{
+    color: orangered;
+    transition: 0.5s;
+}
+#navbar-ul li a.is-active{
+    color: orangered;
+}
+
+/*Navbar Style ends*/
+.title{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: underline;
+    color: orangered;
+}
+
+/*Basic Info Style starts*/
+.first-table,td{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: orangered;
+    letter-spacing: 0.5px;
+}
+hr{
+    background-color: orangered;
+}
+
+.education-text{
+    padding-left: 5px;
+    list-style-position: inside;
+    color: orangered;
+}
+#ATC{
+    padding-left: 20px;
+    list-style-type: square;
+}
+.jobs,.head,.body{
+  color: orangered;
+  border: 1px solid black;
+}
+.knowledge{
+    color: orangered;
+    font-size: 20px;
+    padding-left: 10px;
+}
+/*Basic Info Style ends*/
+
+/*Projects page starts*/
+.column{
+    float: left;
+    width: 33.33%;
+    padding-top: 200px;
+    padding-left: 40px;
+}
+a{
+    text-decoration: none;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+    font-size: 20px;
+}
+a:hover{
+    color: orangered;
+}
+
+@media screen and (max-width:767px){
+    .column{
+        width: 100%;
+        display: inline;
+    }
+    #navbar-ul li{
+        padding: 0;
+        display: inline;
+    }
+    #navbar-ul li a{
+        font-size: 13px;
+    }
+}
+/*Project page ends*/
+
+/*Dream Page Style starts*/
+.dreambody{
+    background-color: aquamarine;
+}
+.dreamh1{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    padding-left: 20%;
+    position: relative;
+    top: 200px;
+}
+.dreamp{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    padding-left: 20%;
+    padding-right: 20%;
+    position: relative;
+    top: 200px;
+}
